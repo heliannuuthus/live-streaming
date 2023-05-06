@@ -4,6 +4,7 @@ use tracing::Level;
 use tracing_subscriber::FmtSubscriber;
 
 mod controllers;
+mod pojo;   
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
